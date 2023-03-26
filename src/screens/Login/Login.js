@@ -6,6 +6,7 @@ import CustomButton from '../../components/CustomButton/CustomButton';
 import { useNavigation } from '@react-navigation/native';
 
 
+
 const Login = () => {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
@@ -16,10 +17,10 @@ const Login = () => {
   const onSignInPressed = () => {
     navigation.navigate('SignUpScreen');
   }
-  const onForgotPasswordPressed = () => {
+  // const onForgotPasswordPressed = () => {
 
-    navigation.navigate('ForgotPasswordScreen')
-  }
+  //   navigation.navigate('ForgotPasswordScreen')
+  // }
   const onSignUp = () => {
     navigation.navigate('SignUpScreen')
   }
@@ -62,22 +63,22 @@ const styles = StyleSheet.create({
   logo: {
     width: '70%',
     maxWidth: 300,
-    maxheight: 200,
+    height: 200,
     marginBottom: 10,
   },
   container: {
-    color: '#000000',
-    fontSize: 20,
+    color: '#F9DB24',
+    fontSize:25,
     fontWeight: 'bold',
-    alignSelf: 'auto',
-
+    alignSelf: 'center',
   },
   appContainer: {
-    color: '#000000',
-    fontSize: 20,
+    color: '#F9DB24',
+    fontSize: 22,
     fontWeight: 'bold',
     alignSelf: 'auto',
     marginTop: 8,
+    alignSelf:'center'
 
   }
 
