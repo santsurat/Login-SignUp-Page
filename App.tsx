@@ -9,15 +9,15 @@ import Navigation from './src/navigation/index';
 export default function App() {
   return (
     <SafeAreaView style={styles.root}>
-   <Navigation />
+      <Navigation />
     </SafeAreaView>
-   
+
   )
 };
 
-const styles =StyleSheet.create({
-  root:{
-    backgroundColor:'#F9FbFc',
-    flex:1,
+const styles = StyleSheet.create({
+  root: {
+    backgroundColor: '#F9FbFc',
+    flex: 1,
   }
 })

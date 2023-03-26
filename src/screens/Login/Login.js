@@ -31,7 +31,7 @@ const Login = () => {
         />
         <View>
           <Text style={styles.container}>ADANBAGH ATTENDANCE</Text>
-        <Text style={styles.appContainer}> MANAGEMENT SYSTEM</Text>
+          <Text style={styles.appContainer}> MANAGEMENT SYSTEM</Text>
         </View>
         <CustomInput placeholder='Username'
           value={username}
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
   },
   container: {
     color: '#F9DB24',
-    fontSize:25,
+    fontSize: 25,
     fontWeight: 'bold',
     alignSelf: 'center',
   },
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     alignSelf: 'auto',
     marginTop: 8,
-    alignSelf:'center'
+    alignSelf: 'center'
 
   }
 
